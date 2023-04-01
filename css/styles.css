@@ -1,0 +1,26 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: darkmagenta;
+  color: black;
+}
+
+/* Background image */
+body {
+  background-image: url(/Images/purple-gaming.jpg);
+  background-repeat: no-repeat;
+  background-size: 750px;
+}
+

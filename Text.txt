@@ -1,0 +1,20 @@
+Code Learning List
+
+Top nav bar: https://www.w3schools.com/howto/howto_js_topnav.asp
+
+
+Images Source
+
+https://www.pexels.com/photo/flatlay-of-gaming-equipments-3165335/
+
+
+
+Ideas
+
+Topnav needs JS to be browser responsive
+Center topnav text
+Add Logo to topnav - right
+Add Account icon to topnav - left
+Add basket to topnav - left 
+
+Cookies?
