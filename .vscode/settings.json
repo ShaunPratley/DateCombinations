@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "selection",
+    "editor.cursorStyle": "line",
+    "window.autoDetectColorScheme": false
+}
