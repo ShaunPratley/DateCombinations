@@ -1,0 +1,87 @@
+/*!
+ * Frame by Shaun Pratley
+*/
+
+/*
+Navbar
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #454547; */
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+  height: 50px;
+  background-color: #454547;
+}
+
+.logo img {
+  cursor: pointer;
+  height: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+nav li a {
+  transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+  color: #0088a9;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+  /* transform: rotate(45deg); */
+  /* transform: matrix(0.7, -0.5, 0.5, 0.4, 0.5, 0.7); */
+}
+
+.product {
+  height: 50px;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #454547;
+}
