@@ -1,0 +1,155 @@
+/*!
+ * Frame by Shaun Pratley
+*/
+
+/*
+Navbar
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  /* background-color: #454547; */
+}
+
+body {
+  background-color: rgb(79, 79, 79);
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 10%;
+  height: 50px;
+  background-color: #454547;
+  overflow: hidden;
+}
+
+.logo img {
+  cursor: pointer;
+  height: 40px;
+}
+
+.nav_links {
+  display: inline-flex;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+nav .nav_links a {
+  transition: all 0.3s ease 0s;
+}
+
+nav .nav_links a:hover {
+  color: #0088a9;
+}
+
+.nav_links {
+  overflow: hidden;
+}
+
+.nav_links a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home {
+  float: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: inherit;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: #454547;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff;
+}
+
+.nav-right {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-right:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+  /* transform: rotate(45deg); */
+  /* transform: matrix(0.7, -0.5, 0.5, 0.4, 0.5, 0.7); */
+}
+
+.product img {
+  height: auto;
+  max-width: 10%;
+}
+
+footer {
+  position: fixed; /* Remove when site content is built */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #454547;
+}
